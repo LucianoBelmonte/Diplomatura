@@ -1,0 +1,35 @@
+h1{
+    color:black; /*color de la fuente*/
+    background-color: chocolate; /*fondo*/
+    text-align:center; /*alienacion*/
+    text-transform: uppercase; /*mayuscula*/
+}
+
+h2{
+    color: blue;
+    front: size 40px; /*tamaño de fuente*/
+    font-family: Arial;
+    margin-left: 800px;
+}
+
+li{
+    color: chocolate;
+}
+
+p{
+    color: chocolate;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 25px; /*alto de linea*/
+
+}
+
+#Objetivos{
+    background-color: chartreuse;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 30px;
+    border-style: dashed;
+
+}
