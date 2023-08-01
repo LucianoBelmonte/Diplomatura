@@ -1,0 +1,48 @@
+#contenedor{
+    border:1px solid black;
+	background-color: #fcfafa;
+    display: inline-flex;
+    flex-wrap: nowrap;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+ }
+ #rojo{
+    margin: 0px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid color(srgb red);
+    background-color: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;    
+}
+
+#azul{
+    
+    margin: 0px;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;    
+}
+
+#verde{
+     
+    margin: 0px;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;    
+}
