@@ -1,0 +1,198 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header {
+    background-color: rgb(110, 130, 150);
+    padding: 16px 0;
+    text-align: center;
+}
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative ;
+    bottom: 35px;
+    margin-left: 10px;
+}
+nav {
+    background-color:cadetblue;
+    margin-bottom: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+nav ul li {
+    flex-grow: 1;
+
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: turquoise;
+       
+}
+nav ul li a.activo{
+    background-color: turquoise;
+}
+.bienvenidos{
+    width: auto;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align:center;
+}
+.presentacion{
+    display: inline-flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 16px;
+    text-align: center;
+   
+}
+.Portada img{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5px;
+    margin-top: 20px;
+}
+          
+.presentacion.cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: rgb(110, 130, 150);
+    clear: both;
+    color:white;
+    text-align: left ;
+    padding: 5px;
+    margin-top: 20px;
+}   
+
+
+/* Inicio Nosotros*/
+.staff img{
+    border-radius: 50%;
+    width: auto;
+}
+.staff{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.persona1 {
+    width: 2%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.persona2{
+    width: 2%;
+    padding: 10px;;
+}
+
+/*inicio servicio*/
+.servicio{
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.servicio .contenido h4{
+    color: lightslategray;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.servicio img{
+    border-radius: 10px;
+    display: block;
+    max-width: 225px;    
+}
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/*inicio trabajos*/
+.trabajos img {
+    width: 18%;
+    border: 1px solid black;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+.trabajos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*inicio contacto*/
+
+.formulario p{
+    display:-webkit-inline-flex;
+    justify-content: center;
+    
+}
+.formulario p label {
+    min-width: 100px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.formulario p input,
+.formulario p textarea{
+    width: 100%;
+}
+.acciones [type="submit"] {
+    background-color: white;
+    box-shadow:  0 0 10px black;
+    color:black;
+    font-size: 16px;
+    padding: 6px 20px;
+}
+.acciones [type="submit"]:hover  {
+    background-color: lightblue;
+}
+.info{
+    display:flex;
+    background-color: lightblue;
+    border-radius: 10px;
+    justify-content: center;
+    width: 12%;
+    box-shadow: 0 0 10px black;
+}
