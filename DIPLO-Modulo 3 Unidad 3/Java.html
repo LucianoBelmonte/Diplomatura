@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/codigo.js">
+
+    </script>
+</head>
+<body>
+<script>
+    const nombre = prompt ('Ingrese su nombre:','');
+    const metros = parseInt (prompt('Ingrese metros:',''));
+    // (Number.isNaN(metros)) {
+    //    document.write('Escribir en numeros'); 
+    if (metros<=1000)   
+        document.write('${nombre}podes ir a PIE');
+    else if (metros <=10000) {
+        document.write('${nombre}podes ir en BICICLETA');
+    }
+    else if (metros <=30000) {
+        document.write('${nombre}podes ir en COLECTIVO');
+    }
+    else if (metros <=100000 ) {
+        document.write('${nombre}podes ir en AUTO');
+    }
+       else if (metros >=100000){
+        document.write('${nombre}podes ir en AVION')
+    }
+  
+</script>    
+</body>
+</html>
