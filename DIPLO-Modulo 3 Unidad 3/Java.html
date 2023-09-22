@@ -12,21 +12,21 @@
 <script>
     const nombre = prompt ('Ingrese su nombre:','');
     const metros = parseInt (prompt('Ingrese metros:',''));
-    // (Number.isNaN(metros)) {
-    //    document.write('Escribir en numeros'); 
+
     if (metros<=1000)   
-        document.write('${nombre}podes ir a PIE');
+        document.write(`${nombre} podes ir a PIE`);
+
     else if (metros <=10000) {
-        document.write('${nombre}podes ir en BICICLETA');
+        document.write(`${nombre} podes ir en BICICLETA`);
     }
     else if (metros <=30000) {
-        document.write('${nombre}podes ir en COLECTIVO');
+        document.write(`${nombre} podes ir en COLECTIVO`);
     }
     else if (metros <=100000 ) {
-        document.write('${nombre}podes ir en AUTO');
+        document.write(`${nombre} podes ir en AUTO`);
     }
        else if (metros >=100000){
-        document.write('${nombre}podes ir en AVION')
+        document.write(`${nombre} podes ir en AVION`);
     }
   
 </script>    

@@ -69,10 +69,11 @@ nav ul li a.activo{
    
 }
 .Portada img{
-    display: flex;
+    display:flex;
     justify-content:space-evenly;
     padding: 5px;
     margin-top: 20px;
+   
 }
           
 .presentacion.cita{
