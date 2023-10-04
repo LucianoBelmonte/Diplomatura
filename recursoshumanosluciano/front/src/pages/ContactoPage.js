@@ -1,9 +1,10 @@
-const ContactoPage=(props) => {
+import '../styles/ContactoPage.css'
+const ContactoPage = (props) => {
     return (
 <body>
     <header>
         <div className="holder">
-            <img src="Logorrhh.png" width="150" alt="RRHH"/>
+            <img src="images/Logorrhh.png" width="150" alt="RRHH"/>
             <h1> RecursosHumanosLuciano</h1>
         </div>
     </header>
@@ -16,10 +17,10 @@ const ContactoPage=(props) => {
             <li><a class="activo" href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
-    <main class="holder">
+    <main className="holder">
         <div>
             <h2>Comunicate con nosotros</h2>
-            <form action="method" class="formulario">
+            <form action="method" className="formulario">
                 <p>
                     <label for="nombre">Nombre</label>
                     <input type="text" name=""/>
@@ -36,11 +37,11 @@ const ContactoPage=(props) => {
                     <label for="mensaje">Mensaje</label>
                     <textarea name=""></textarea>
                 </p>
-                <p class="acciones"><input type="submit" value="Enviar"/></p>
+                <p className="acciones"><input type="submit" value="Enviar"/></p>
             </form>
         </div>
         <div>
-            <p class="info">Comunicate con Nosotros</p>
+            <p className="info">Comunicate con Nosotros</p>
             <h4>Telefono:0000</h4>
             <h4>Sede:00000</h4>
             <h4>Mail:xxxxx@gmail</h4>

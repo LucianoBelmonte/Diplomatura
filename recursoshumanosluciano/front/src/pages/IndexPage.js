@@ -1,9 +1,10 @@
+import '../styles/IndexPage.css'
 const IndexPage = (props) => {
     return (
         <body>
     <header>
         <div className="holder">
-            <img src="Logorrhh.png" width="150" alt="RRHH"/>
+            <img src="images/Logorrhh.png" width="150" alt="RRHH"/>
             <h1> RecursosHumanosLuciano</h1>
         </div>
         </header>     

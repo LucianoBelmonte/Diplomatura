@@ -1,24 +1,15 @@
+import React from "react";
 const Header=(props) => {
    return (
-    <div>
-<head>
-    <title>RecursosHumanosLuciano</title>
-   
-</head>
-
-<header>
-        <div className="holder">
-            <img src="Logorrhh.png" width="150" alt="RRHH"/>
+   <header>
+      <div className="holder">
+      <title>RecursosHumanosLuciano</title>
+            <img src="images/Logorrhh.png" width="150" alt="RRHH"/>
             <h1> RecursosHumanosLuciano</h1>
         </div>
+        </header>
 
-    </header>
-
-
-
-
-    </div>
-   );
+  );
 
 }
 export default Header;

@@ -1,4 +1,5 @@
-const NosotrosPage=(props) => {
+import '../styles/NosotrosPage.css'
+const NosotrosPage = (props) => {
     return (
         <main>
         <div className="historia">
@@ -10,7 +11,7 @@ const NosotrosPage=(props) => {
             <div className="staff">
                 <div className="persona1"></div>
                 <h2>Staff</h2>
-                <img src="nosotros1.jpg" alt="BelmonteLuciano"/>
+                <img src="images/nosotros1.jpg" alt="BelmonteLuciano"/>
                 <h3>Belmonte Luciano</h3>
                 <h4>Fundador</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores ipsum hic aliquam
@@ -20,7 +21,7 @@ const NosotrosPage=(props) => {
             <div className="staff">
             <div className="persona2"></div>
             <h2>Staff</h2>
-            <img src="nosotros2.jpg" alt="Colaboradora"/>
+            <img src="images/nosotros2.jpg" alt="Colaboradora"/>
             <h3>Santillan Laura</h3>
             <h4>Co Fundadora</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores ipsum hic aliquam

@@ -1,10 +1,11 @@
-const ServiciosPage=(props) => {
+import '../styles/ServiciosPage.css'
+const ServiciosPage = (props) => {
     return (
        <div>
        <main className="holder">
         <h2>Servicios</h2>
         <div className="servicio">
-            <img src="trabajo en equipo serv.jpg" alt="trabajo en eq"/>
+            <img src="images/trabajo en equipo serv.jpg" alt="trabajo en eq"/>
             <div className="contenido">
                 <h4>Herramientas</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ullam dicta vitae perferendis aliquid
@@ -13,7 +14,7 @@ const ServiciosPage=(props) => {
             </div>
         </div>
         <div className="servicio">
-            <img src="trabajo en equipo serv.jpg" alt="trabajo en eq"/>
+            <img src="images/trabajo en equipo serv.jpg" alt="trabajo en eq"/>
             <div className="contenido">
                 <h4>Herramientas</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ullam dicta vitae perferendis aliquid
@@ -22,7 +23,7 @@ const ServiciosPage=(props) => {
             </div>
         </div>
         <div className="servicio">
-            <img src="trabajo en equipo serv.jpg" alt="trabajo en eq"/>
+            <img src="images/trabajo en equipo serv.jpg" alt="trabajo en eq"/>
             <div className="contenido">
                 <h4>Herramientas</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ullam dicta vitae perferendis aliquid

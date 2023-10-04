@@ -1,8 +1,10 @@
+import './App.css'
 import { BrowserRouter,Routes, Route } from "react-router-dom";
+
 import Header from "./componentes/layout/Header";
 import Nav from "./componentes/layout/Nav";
 import Footer from "./componentes/layout/Footer";
-// import './App.css';
+
 import IndexPage from './pages/IndexPage';
 import NosotrosPage from './pages/NosotrosPage';
 import ServiciosPage from './pages/ServiciosPage';
@@ -11,7 +13,7 @@ import ContactoPage from './pages/ContactoPage';
 
 
 function App() {
-  return (
+  return(
     <div className="App">
       <BrowserRouter>
       <Header/>
@@ -28,7 +30,7 @@ function App() {
       <Footer/>
     
     </div>
-  );
+  )
 }
 
 export default App;
