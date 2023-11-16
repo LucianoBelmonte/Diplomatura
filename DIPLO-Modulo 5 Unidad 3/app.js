@@ -46,13 +46,13 @@ pool.query('select*from empleados').then(function
 // });
 
 //update
-var id = 23;
+var id= 23;
 var obj = {
   nombre: 'Pablo',
   apellido: 'Gomez'
 }
 
-pool.query("update empleados set ? where id_emp=?", [obj, id]).then(function (resultados) {
+pool.query("update empleados set ? where id=?", [obj, id]).then(function (resultados) {
   console.log(resultados);
 });
 
